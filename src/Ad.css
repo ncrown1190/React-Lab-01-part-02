@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap");
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Ad {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  text-align: center;
+}
+
+.Ad.light {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.Ad.dark {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+.ad_flavorlight {
+  font-family: "caveat";
+}
+.ad_flavordark {
+  font-family: "caveat";
+}
